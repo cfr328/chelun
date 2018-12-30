@@ -1,0 +1,29 @@
+git
+删除文件:
+settings中点击delete在弹框中输入文件名点击确定，
+再输入密码
+
+小组长
+1新建空仓库，
+2本地克隆，git clone
+3git checkout -b dev(分支名)   切换并创建分支
+git checkout -b aa(他人分支名)
+4在自己的分支写作业，
+git add .
+git commit -m '1'
+git push origin aa
+5git checkout dev
+git merge dev
+add commit
+git push origin dev
+
+邀请组员collaborators合作者
+1打开仓库文件夹，切换到collaborators邀请组员
+
+组员
+github首页列表会有组长的文件夹
+点击git clone 
+
+
+
+git branch 查看分支
